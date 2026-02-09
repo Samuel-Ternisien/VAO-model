@@ -1,0 +1,9 @@
+# datasets
+data/
+datasets/
+*.npz
+artifacts/
+wandb/
+.venv/
+__pycache__/
+*.pt
