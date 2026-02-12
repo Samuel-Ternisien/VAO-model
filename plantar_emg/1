@@ -1,0 +1,45 @@
+nohup: les entrées sont ignorées
+wandb: [wandb.login()] Using explicit session credentials for https://api.wandb.ai.
+wandb: Appending key for api.wandb.ai to your netrc file: /home/fisa/.netrc
+wandb: Currently logged in as: samuel-ternisien (samuel-ternisien-imt-nord-europe) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: setting up run a0tqyj9w
+wandb: Tracking run with wandb version 0.24.2
+wandb: Run data is saved locally in /home/fisa/pirosa/plantar_emg/wandb/run-20260212_094319-a0tqyj9w
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run MULTIMODAL_LR0.0001_BS256_Win3
+wandb: ⭐️ View project at https://wandb.ai/samuel-ternisien-imt-nord-europe/MindScan_Action_Recognition
+wandb: 🚀 View run at https://wandb.ai/samuel-ternisien-imt-nord-europe/MindScan_Action_Recognition/runs/a0tqyj9w
+/home/fisa/pirosa/plantar_emg/main.py:212: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(save_path_test)
+wandb: uploading history steps 91-106, summary, console lines 0-1; updating run metadata
+wandb: uploading media/images/confusion_matrix/S25_100_52b19683fc9fe7e62a43.png; uploading media/images/confusion_matrix/S26_101_73cad190a98e20a34a86.png; uploading media/images/confusion_matrix/S27_102_58352b837fd1bfc3b147.png; uploading media/images/confusion_matrix/S28_103_a33e949ca2de0d22ab05.png; uploading media/images/confusion_matrix/S31_106_d05817937a3fe37d695e.png (+ 6 more)
+wandb: uploading history steps 107-108, summary
+wandb: 
+wandb: Run history:
+wandb:           best_test_acc ▁▄▆▆▇▇▇███
+wandb:            best_val_acc ▁▂▄▄▄▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇██████████████
+wandb:                   epoch ▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▄▄▄▅▅▅▅▆▆▆▆▆▆▆▆▇▇▇▇▇▇▇███
+wandb: final_test_avg_accuracy ▁
+wandb:                test_acc ▁▄▆▆▇▇▇█▇███████████
+wandb:               test_loss █▅▄▃▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:               train_acc ▁▂▃▄▄▅▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇████████████████
+wandb:              train_loss █▆▅▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                 val_acc ▁▂▅▅▆▆▇▇▇▇▇▇████████████████████████████
+wandb:                val_loss █▇▇▆▆▄▄▃▃▃▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:           best_test_acc 0.76542
+wandb:            best_val_acc 0.87772
+wandb:                   epoch 100
+wandb: final_test_avg_accuracy 0.76604
+wandb:                test_acc 0.75743
+wandb:               test_loss 0.91052
+wandb:               train_acc 0.93015
+wandb:              train_loss 0.26734
+wandb:                 val_acc 0.86932
+wandb:                val_loss 0.44011
+wandb: 
+wandb: 🚀 View run MULTIMODAL_LR0.0001_BS256_Win3 at: https://wandb.ai/samuel-ternisien-imt-nord-europe/MindScan_Action_Recognition/runs/a0tqyj9w
+wandb: ⭐️ View project at: https://wandb.ai/samuel-ternisien-imt-nord-europe/MindScan_Action_Recognition
+wandb: Synced 5 W&B file(s), 8 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260212_094319-a0tqyj9w/logs
