@@ -9,3 +9,8 @@
 2026-02-12 10:19:56,317 - INFO - Validation Accuracy: 0.845
 2026-02-12 10:22:06,391 - INFO - Starting Multimodal Training on cuda
 2026-02-12 10:28:41,135 - INFO - Epoch 1 - Loss: 2.3714, Acc: 0.314
+2026-02-12 10:30:28,184 - INFO - Validation Accuracy: 0.588
+2026-02-12 10:37:37,170 - INFO - Epoch 2 - Loss: 1.0683, Acc: 0.663
+2026-02-12 10:39:45,579 - INFO - Validation Accuracy: 0.765
+2026-02-12 10:49:45,379 - INFO - Epoch 3 - Loss: 0.5796, Acc: 0.829
+2026-02-12 10:52:14,465 - INFO - Validation Accuracy: 0.832

@@ -4,26 +4,26 @@ import os
 CONFIG = {
     "data_root": "/home/fisa/stockage1/mindscan",
     
-    # Paramètres de traitement
+    # Processing parameters
     "target_fs": 50,         
-    "window_size_sec": 3,  
+    "window_size_sec": 2.5,  
     "step_size_sec": 1.25,   
     
-    # Paramètres d'entraînement
-    "batch_size": 256,
-    "epochs": 100,
-    "learning_rate": 1e-4,
+    # Training parameters
+    "batch_size": 256, 
+    "epochs": 100, 
+    "learning_rate": 1e-4, 
+    
     "device": torch.device("cuda" if torch.cuda.is_available() else "cpu"),
     
-    "modality": "MULTIMODAL",
+    # Modality: 'PLANTAR', 'EMG', 'SKELETON', 'IMU', or 'MULTIMODAL' (All 4)
+    "modality": "MULTIMODAL", 
 
-    # WandB
     "wandb_project": "MindScan_Action_Recognition"
 }
 
-# Génération dynamique du nom de run pour WandB
 CONFIG["run_name"] = f"{CONFIG['modality']}_LR{CONFIG['learning_rate']}_BS{CONFIG['batch_size']}_Win{CONFIG['window_size_sec']}"
-CONFIG["output_dir"] = f"/home/fisa/stockage1/data_pirosa/results/{CONFIG['run_name']}"
+CONFIG["output_dir"] = f"/home/fisa/stockage1/data_pirosa/{CONFIG["run_name"]}"
 # Splits
 TRAIN_SEQS = [f"{i:02d}" for i in range(1, 9)]
 EVAL_SEQS = ["09", "10"]
