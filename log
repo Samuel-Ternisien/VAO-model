@@ -1,0 +1,2 @@
+nohup: les entrées sont ignorées
+python3: can't open file '/home/fisa/pirosa/main.py': [Errno 2] No such file or directory

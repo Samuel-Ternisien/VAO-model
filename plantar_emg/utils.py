@@ -2,7 +2,7 @@ import logging
 import os
 import sys
 import numpy as np
-# import pandas as pd
+import pandas as pd
 from config import CONFIG
 
 def get_logger(name="MindScan_Logger"):

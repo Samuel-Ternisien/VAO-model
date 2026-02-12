@@ -2,10 +2,10 @@ nohup: les entrées sont ignorées
 wandb: [wandb.login()] Using explicit session credentials for https://api.wandb.ai.
 wandb: Appending key for api.wandb.ai to your netrc file: /home/fisa/.netrc
 wandb: Currently logged in as: samuel-ternisien (samuel-ternisien-imt-nord-europe) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
-wandb: setting up run 1jy0wx9i
+wandb: setting up run e74o26ko
 wandb: Tracking run with wandb version 0.24.2
-wandb: Run data is saved locally in /home/fisa/pirosa/plantar_emg/wandb/run-20260212_105401-1jy0wx9i
+wandb: Run data is saved locally in /home/fisa/pirosa/plantar_emg/wandb/run-20260212_110505-e74o26ko
 wandb: Run `wandb offline` to turn off syncing.
 wandb: Syncing run MULTIMODAL_LR0.0001_BS256_Win2.5
 wandb: ⭐️ View project at https://wandb.ai/samuel-ternisien-imt-nord-europe/MindScan_Action_Recognition
-wandb: 🚀 View run at https://wandb.ai/samuel-ternisien-imt-nord-europe/MindScan_Action_Recognition/runs/1jy0wx9i
+wandb: 🚀 View run at https://wandb.ai/samuel-ternisien-imt-nord-europe/MindScan_Action_Recognition/runs/e74o26ko
